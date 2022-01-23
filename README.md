@@ -35,7 +35,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-
+```
 <!DOCTYPE html>
 <html>
 <body id="Jaeger">
@@ -203,6 +203,7 @@ function change_color(element){
 </style>
 </body>
 </html>
+```
 
 ## OUTPUT:
 ![GITLOGO](paint1.png)
