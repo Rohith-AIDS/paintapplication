@@ -270,7 +270,7 @@ ctx.fillText("Smile!",193,400)
 OUTPUT
 
 
-![gitlogo](SMILE.jpg)
+![gitlogo](smile.jpg)
 
 2.DESIGN A DANGER BOARD USING HTML CANVAS
 
