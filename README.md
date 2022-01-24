@@ -153,7 +153,7 @@ function change_color(element){
 
 </script>
 <center><p id="demo" style="color: white;"></p></center>
-<p style="color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >Developed By ROHITHKUMAR SV</p>
+<p style="color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >Developed By JAVITH FARKHAN</p>
 <style>
 
 #light{
@@ -211,3 +211,101 @@ function change_color(element){
 ## Result:
 
 Thus a website is designed and validated for paint application using HTML5 canvas.
+
+## ASSIGNMENTS:
+
+1.DESIGN A SMILE EMOJI USING HTML CANVAS.
+
+PROGRAM
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="500" height="500"
+>
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.fillStyle="#42f560";
+ctx.beginPath();
+ctx.arc(230,250,100,0,2*Math.PI);
+ctx.lineWidth=5;
+ctx.fill();
+ctx.stroke();
+
+ctx.fillStyle="#42f2f5";
+ctx.beginPath();
+ctx.arc(200,220,17,0,2*Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.fillStyle="#42f2f5";
+ctx.beginPath();
+ctx.arc(260,220,17,0,2*Math.PI);
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(230,260,65,0,Math.PI);
+ctx.strokeStyle="#fa00dd";
+ctx.stroke();
+
+
+
+
+
+ctx.font="30px fantasy";
+ctx.fillText("Smile!",193,400)
+
+</script> 
+
+</body>
+</html>
+```
+##OUTPUT
+![GITLOGO](SMILE.PNG)
+
+2.DESIGN A DANGER BOARD USING HTML CANVAS
+
+PROGRAM
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="800" height="500"
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d"); 
+
+ctx.fillStyle= "red";
+ctx.fillRect(0,0,300,160);
+ctx.lineWidth=3;
+ctx.stroke();
+
+ctx.moveTo(0,0);
+ctx.lineTo(299,158);
+ctx.stroke();
+</script>
+
+<script>
+
+ctx.font="30px  Helvetica";
+ctx.strokeText("DANGER!",10,140);
+
+</script> 
+
+</body>
+</html>
+```
+OUTPUT
+
+![GITLOGO](DANGER.PNG)
+
