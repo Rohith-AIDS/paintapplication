@@ -266,6 +266,7 @@ ctx.fillText("Smile!",193,400)
 
 </body>
 </html>
+DEVELOPED BY:SVROHITHKUMAR
 ```
 OUTPUT
 
@@ -306,6 +307,8 @@ ctx.strokeText("DANGER!",10,140);
 
 </body>
 </html>
+
+DEVELOPED BY:SV ROHITHKUMAR
 ```
 OUTPUT
 
