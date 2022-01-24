@@ -153,7 +153,7 @@ function change_color(element){
 
 </script>
 <center><p id="demo" style="color: white;"></p></center>
-<p style="color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >Developed By JAVITH FARKHAN</p>
+<p style="color: white; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >Developed By SV ROHITHKUMAR</p>
 <style>
 
 #light{
